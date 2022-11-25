@@ -4,6 +4,10 @@
     float: none;
     width: 100%;
   }
+  .header-image, .main-nav {
+    max-width: fit-content;
+    
+  }
 }
 
 /*Grid Layout*/
@@ -45,8 +49,8 @@ body {
 .prev,
 .next {
   cursor: pointer;
-  position: absolute;
-  top: 40%;
+  position: center;
+  top: 30%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -251,6 +255,7 @@ body > footer {
   top: 100vh;
   text-align: center;
 }
+
 
 .button {
   border-radius: 10px;
